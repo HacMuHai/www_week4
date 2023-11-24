@@ -13,10 +13,7 @@ import java.util.UUID;
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter @Setter
-@Entity
 public class Address {
-    @Id
-    @Column(columnDefinition = "UUID")
     private UUID id;
     private String city;
     private Short country;
