@@ -15,4 +15,6 @@ public class CandidateSkill {
     private String moreInfomation;
     private Candidate candidate;
     private Skill skill;
+
+
 }
